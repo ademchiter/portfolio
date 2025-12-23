@@ -1,11 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio | Adem CHITER</title>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js" defer></script>
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Manjari:wght@100;400;700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!--  phosphore icon -->
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css" />
+
+    <!-- aos -->
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- ma feuille de style -->
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+
+    <!-- header -->
+    <header class="flex space-between align-center padding-20">
+
+        <!-- MA photo + adem chiter-->
+        <div class="flex align-center w-23 gap-12 ">
+            <img src="asset/ADEM1.png" class="w-23 imageProfil" alt="">
+
+            <p> <a href="index.html" class="w-23 txt700 "> ADEM CHITER </a></p>
+
+
+        </div>
+
+        <!-- Navigation -->
+        <nav class="">
+            <ul class="flex space-between gap-12 epiloguePolice">
+                <li><a class="policeInter" href="">ACCUEIL</a></li>
+                <li><a class="policeInter" href="">À PROPOS</a></li>
+                <li><a class="policeInter" href="#section2">PROJETS</a></li>
+                <li><a class="policeInter" href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+
+    <main>
+        <!-- SECTION HERO - Bannière -->
+        <section id="section1" class="banner flex bgBeige padding-50 align-center ">
+            <div class="textCenter w-98">
+                <h1>Hey, je suis Adem CHITER ! </h1>
+                <p class="margin-top-15">Un développeur Full-Stack</p>
+                <p>Très motivé, créatif et passionné, capable de travailler seul ou en équipe.</p>
+
+                <a class="btn4 margin-top-15 " href="">PROJETS</a>
+            </div>
+        </section>
+
+        <!-- SECTION " a propos" -->
+        <section class="textCenter">
+        <h2> À PROPOS</h2>
+        <p>Vous trouverez ici plus d'informations sur moi, mon activité et mes compétences actuelles, principalement en
+            matière de programmation.</p>
+
+        <div class="flex">
+            <div class="w-48">
+            <p>Apprenez à me connaître !  
+
+            <p>Je suis développeur web front-end. Je conçois et gère l'interface des sites web et des applications web,
+                contribuant ainsi au succès du produit. Découvrez certains de mes travaux dans la section Projets.
+
+                J'aime aussi partager du contenu lié à mes connaissances acquises au fil des années en développement
+                web, afin d'aider la communauté des développeurs. N'hésitez pas à me suivre sur LinkedIn et Instagram,
+                où je publie du contenu utile sur le développement web et la programmation.
+
+                Je suis ouvert aux opportunités professionnelles qui me permettront de contribuer, d'apprendre et de
+                progresser. Si vous avez une offre correspondant à mes compétences et à mon expérience, n'hésitez pas à
+                me contacter.</p></div>
+
+                <div> 
+                <p> Mes compétences</p>
+                <p>HTML</p>
+                 <p>CSS</p>
+                  <p>JAVASCRIPT</p>
+                   <p>GIT</p>
+                    <p>GITHUB</p>
+                     <p>UX/UI</p>
+                      <p>FIGMA</p>
+                                     <p>VISUAL STUDIO</p>
+                      </div>
+        </div>
+
+        </section>
+
+        <!-- SECTION " projets" -->
+        <section class="textCenter">
+            <h2> PROJETS</h2>
+            <p>Vous trouverez ici quelques-uns des projets personnels et clients que j'ai réalisés, chaque projet faisant l'objet d'une étude de cas</p>
+        </section>
+    </main>
+
+    <!-- footer -->
+    <footer class="bgFooter colorWhite flex padding-40" id="contact">
+
+        <div class="bas flex justify-center container">
+            <div class="flex space-between">
+                <!-- ma première div -->
+                <div class="footerParagraph w-48 flex space-between align-center ">
+                    <div class="w-23 flex justify-center ">
+                        <img src="asset/logo-bon-pied3.png" alt="" class="w-98">
+                        <div class="margin-top-10 "><i class="ph ph-instagram-logo txtWhite"></i>
+                            <i class="ph ph-linkedin-logo txtWhite"></i>
+                        </div>
+                    </div>
+                    <p class="w-73 txtWhite pFooter policeEpilogue">Une question ? Une demande? N'hésitez pas à me
+                        contacter ! </p>
+
+
+
+                </div>
+                <!-- ma deuxième div -->
+                <div class="w-48">
+                    <!-- mon formulaire de contact -->
+                    <form>
+                        <input type="text" class="paddingFormulaire policeEpilogue" value="Nom"><br>
+                        <input type="text" class="paddingFormulaire margin-top-6 policeEpilogue" value="Email"
+                            class="margin-top-10"><br>
+                        <input type="submit" value="Envoyer" class="margin-top-15  btn3">
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <!-- lancer AOS -->
+    <script>
+        AOS.init();
+    </script>
+
 </body>
+
 </html>

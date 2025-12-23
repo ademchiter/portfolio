@@ -451,7 +451,7 @@ h3 {
 .banner{
 
 height: 100vh;
-background-image: url(asset/bgHeader.svg);
+background: linear-gradient(to right, rgba(245, 245, 245, 0.8), rgba(245, 245, 245, 0.612)) center center, url(asset/bgHeader.svg);;
 
 }
 
@@ -482,6 +482,13 @@ color:rgb(85, 85, 85);
  
 }
 
+.penSavoirPlus{
+         font-size: 18px;
+font-weight: 400;  
+color:    rgb(102, 102, 102)
+
+}
+
 
 .liNav:hover{
   color: #7843E9;
@@ -489,4 +496,14 @@ color:rgb(85, 85, 85);
 
 .traitViolet{
     background-color:#7843E9 ;
+}
+
+/* style de mes cartes produits / services / retours clients */
+.card2 {
+
+    background-color:rgba(153, 153, 153, 0.2);
+    color:#666; 
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 5px;
 }

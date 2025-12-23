@@ -10,9 +10,10 @@
     <script src="script.js" defer></script>
 
     <!-- google font -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+        rel="stylesheet">
 
     <!--  phosphore icon -->
     <link rel="stylesheet" type="text/css"
@@ -46,8 +47,8 @@
         <nav class="pNav">
             <ul class="flex space-between gap-24 epiloguePolice">
                 <li><a class="liNav" href="">ACCUEIL</a></li>
-                <li><a class="liNav" href="">À PROPOS</a></li>
-                <li><a class="liNav" href="#section2">PROJETS</a></li>
+                <li><a class="liNav" href="#apropos">À PROPOS</a></li>
+                <li><a class="liNav" href="#projet">PROJETS</a></li>
                 <li><a class="liNav" href="#contact">CONTACT</a></li>
             </ul>
         </nav>
@@ -68,48 +69,85 @@
         </section>
 
         <!-- SECTION " a propos" -->
-        <section class=" aPropos padding-50">
+        <section class=" aPropos padding-50" id="apropos">
             <div class="textCenter">
-        <h2 class=""> À PROPOS</h2>
-        
-        <p class="pProjet">Vous trouverez ici plus d'informations sur moi, mon activité et mes compétences actuelles, principalement en
-            matière de programmation.</p>
-</div>
-        <div class="flex margin-top-50">
-            <div class="w-48 ">
-            <h3>En savoir plus sur moi ! </h3> 
+                <h2 class=""> À PROPOS</h2>
 
-            <p>Je suis développeur web front-end. Je conçois et gère l'interface des sites web et des applications web,
-                contribuant ainsi au succès du produit. Découvrez certains de mes travaux dans la section Projets.
-
-                J'aime aussi partager du contenu lié à mes connaissances acquises au fil des années en développement
-                web, afin d'aider la communauté des développeurs. N'hésitez pas à me suivre sur LinkedIn et Instagram,
-                où je publie du contenu utile sur le développement web et la programmation.
-
-                Je suis ouvert aux opportunités professionnelles qui me permettront de contribuer, d'apprendre et de
-                progresser. Si vous avez une offre correspondant à mes compétences et à mon expérience, n'hésitez pas à
-                me contacter.</p>
+                <p class="pProjet">Vous trouverez ici plus d'informations sur moi, mon activité et mes compétences
+                    actuelles, en
+                    matière de programmation.</p>
             </div>
+            <div class="flex margin-top-50 space-between">
+                <div class="w-40">
+                    <h3>En savoir plus sur moi ! </h3>
 
-                <div> 
-                 <h3> Mes compétences</h3>
-                <p>HTML</p>
-                 <p>CSS</p>
-                  <p>JAVASCRIPT</p>
-                   <p>GIT</p>
-                    <p>GITHUB</p>
-                     <p>UX/UI</p>
-                      <p>FIGMA</p>
-                                     <p>VISUAL STUDIO</p>
-                      </div>
-        </div>
+                    <p class="penSavoirPlus margin-top-10">Je suis <span class="txtGras">développeur full stack</span>.
+                        Je conçois et gère l'interface de sites web et d'applications web. Découvrez certains de mes
+                        travaux dans la section
+                        <span class="txtGras">Projets</span>.
+                    </p>
+                    <p class="penSavoirPlus margin-top-10">
+                        J'aime aussi partager du contenu lié à mes connaissances acquises au fil des années en
+                        <span class="txtGras">développement
+                            web</span>, afin d'aider la communauté des développeurs. N'hésitez pas à me suivre sur
+                        LinkedIn et
+                        GITHUB,
+                        où je publie du contenu utile sur le développement web et la programmation.
+                    </p>
+                    <p class="penSavoirPlus margin-top-10">
+                        Je suis ouvert aux <span class="txtGras">opportunités professionnelles</span> qui me permettront
+                        de contribuer, d'apprendre
+                        et de
+                        progresser. Si vous avez une offre correspondant à mes compétences et à mon expérience,
+                        n'hésitez pas à
+                        me contacter.</p>
+
+                </div>
+
+                <div class="margin-top-15">
+                    <h3> Mes compétences</h3>
+                    <div class="margin-top-20">
+                        <span class="card2">HTML</span>
+                        <span class="card2">CSS</span>
+                        <span class="card2">JAVASCRIPT</span>
+                        <span class="card2">GIT</span>
+                        <span class="card2">GITHUB</span>
+                        <span class="card2">UX/UI</span>
+                        <span class="card2">FIGMA</span>
+                        <span class="card2">VISUAL STUDIO</span>
+                    </div>
+                </div>
+            </div>
 
         </section>
 
         <!-- SECTION " projets" -->
-        <section id="projet" class="textCenter">
+        <section id="projet" class="textCenter padding-50">
             <h2> PROJETS</h2>
-            <p class="pProjet">Vous trouverez ici quelques-uns des projets personnels et clients que j'ai réalisés, chaque projet faisant l'objet d'une étude de cas</p>
+            <p class="pProjet">Vous trouverez ici quelques-uns des projets personnels et clients que j'ai réalisés,
+                chaque projet faisant l'objet d'une étude de cas</p>
+
+            <div class="flex align-center space-between">
+
+                <img class="w-48" src="asset/clemence.jpeg" alt="">
+
+                <div class="w-48">
+                    <h3>Clémence Rivière Studio</h3>
+                    <p>Clémence Rivière Studio est une entreprise de logistique et de transport multiservices, et j'ai
+                        créé leur site web de A à Z en utilisant les outils front-end que je connais.</p>
+                </div>
+            </div>
+
+                        <div class="flex align-center space-between">
+
+                <img class="w-48" src="asset/BonPied.jpeg" alt="">
+
+                <div class="w-48">
+                    <h3>BonPied</h3>
+                    <p>Clémence Rivière Studio est une entreprise de logistique et de transport multiservices, et j'ai
+                        créé leur site web de A à Z en utilisant les outils front-end que je connais.</p>
+                </div>
+            </div>
         </section>
     </main>
 

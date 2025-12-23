@@ -10,11 +10,9 @@
     <script src="script.js" defer></script>
 
     <!-- google font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Manjari:wght@100;400;700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
 
     <!--  phosphore icon -->
     <link rel="stylesheet" type="text/css"
@@ -33,24 +31,24 @@
 <body>
 
     <!-- header -->
-    <header class="flex space-between align-center padding-20">
+    <header class="flex space-between align-center padding-15 container">
 
         <!-- MA photo + adem chiter-->
         <div class="flex align-center w-23 gap-12 ">
             <img src="asset/ADEM1.png" class="w-23 imageProfil" alt="">
 
-            <p> <a href="index.html" class="w-23 txt700 "> ADEM CHITER </a></p>
+            <p> <a href="index.html" class="w-23 pHeader liNav "> ADEM CHITER </a></p>
 
 
         </div>
 
         <!-- Navigation -->
-        <nav class="">
-            <ul class="flex space-between gap-12 epiloguePolice">
-                <li><a class="policeInter" href="">ACCUEIL</a></li>
-                <li><a class="policeInter" href="">À PROPOS</a></li>
-                <li><a class="policeInter" href="#section2">PROJETS</a></li>
-                <li><a class="policeInter" href="#contact">CONTACT</a></li>
+        <nav class="pNav">
+            <ul class="flex space-between gap-24 epiloguePolice">
+                <li><a class="liNav" href="">ACCUEIL</a></li>
+                <li><a class="liNav" href="">À PROPOS</a></li>
+                <li><a class="liNav" href="#section2">PROJETS</a></li>
+                <li><a class="liNav" href="#contact">CONTACT</a></li>
             </ul>
         </nav>
 
@@ -61,23 +59,25 @@
         <!-- SECTION HERO - Bannière -->
         <section id="section1" class="banner flex bgBeige padding-50 align-center ">
             <div class="textCenter w-98">
-                <h1>Hey, je suis Adem CHITER ! </h1>
-                <p class="margin-top-15">Un développeur Full-Stack</p>
-                <p>Très motivé, créatif et passionné, capable de travailler seul ou en équipe.</p>
+                <h1>HEY, JE SUIS ADEM CHITER </h1>
+                <p class="margin-top-15 paragraph">Un développeur Full-Stack</p>
+                <p class="paragraph">Très motivé, créatif et passionné, capable de travailler seul ou en équipe.</p>
 
-                <a class="btn4 margin-top-15 " href="">PROJETS</a>
+                <a class="btn4 margin-top-50 " href="#projet"> MES PROJETS</a>
             </div>
         </section>
 
         <!-- SECTION " a propos" -->
-        <section class="textCenter">
-        <h2> À PROPOS</h2>
-        <p>Vous trouverez ici plus d'informations sur moi, mon activité et mes compétences actuelles, principalement en
+        <section class=" aPropos padding-50">
+            <div class="textCenter">
+        <h2 class=""> À PROPOS</h2>
+        
+        <p class="pProjet">Vous trouverez ici plus d'informations sur moi, mon activité et mes compétences actuelles, principalement en
             matière de programmation.</p>
-
-        <div class="flex">
-            <div class="w-48">
-            <p>Apprenez à me connaître !  
+</div>
+        <div class="flex margin-top-50">
+            <div class="w-48 ">
+            <h3>En savoir plus sur moi ! </h3> 
 
             <p>Je suis développeur web front-end. Je conçois et gère l'interface des sites web et des applications web,
                 contribuant ainsi au succès du produit. Découvrez certains de mes travaux dans la section Projets.
@@ -88,10 +88,11 @@
 
                 Je suis ouvert aux opportunités professionnelles qui me permettront de contribuer, d'apprendre et de
                 progresser. Si vous avez une offre correspondant à mes compétences et à mon expérience, n'hésitez pas à
-                me contacter.</p></div>
+                me contacter.</p>
+            </div>
 
                 <div> 
-                <p> Mes compétences</p>
+                 <h3> Mes compétences</h3>
                 <p>HTML</p>
                  <p>CSS</p>
                   <p>JAVASCRIPT</p>
@@ -106,9 +107,9 @@
         </section>
 
         <!-- SECTION " projets" -->
-        <section class="textCenter">
+        <section id="projet" class="textCenter">
             <h2> PROJETS</h2>
-            <p>Vous trouverez ici quelques-uns des projets personnels et clients que j'ai réalisés, chaque projet faisant l'objet d'une étude de cas</p>
+            <p class="pProjet">Vous trouverez ici quelques-uns des projets personnels et clients que j'ai réalisés, chaque projet faisant l'objet d'une étude de cas</p>
         </section>
     </main>
 

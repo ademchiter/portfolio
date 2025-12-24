@@ -333,6 +333,18 @@ h3 {
     border-radius: 5px;
 }
 
+/* bouton "Envoyer" footer */
+.btn5 {
+    background-color: #7843E9;
+;
+    color: white;
+    padding: 10px 20px;
+    display: inline-block; 
+ 
+    font-weight: 700;
+    border-radius: 5px;
+}
+
 /* style de ma section Avantage client */
 .bgGreen {
     background-color: #D2D0A0;
@@ -509,9 +521,9 @@ color:    rgb(102, 102, 102)
     border-radius: 5px;
 }
 
-header{
+/*header{
         position: fixed;
             top: 0;
     left: 0;
     background-color: white;
-}
+}*/

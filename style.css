@@ -527,3 +527,15 @@ color:    rgb(102, 102, 102)
     left: 0;
     background-color: white;
 }*/
+
+.lien{
+    text-decoration: underline;
+    color:#7843E9;
+    font-weight: 700;
+}
+
+.spanViolet{
+    background-color: #7843E9;
+    height: 5px;
+    border-radius: 5px;
+}

@@ -179,6 +179,7 @@
 .padding-15 {
     padding: 15px;
 }
+
 .padding-20 {
     padding: 20px;
 }
@@ -208,19 +209,20 @@ header ul {
 }
 
 body {
-  font-family: "Source Sans 3", sans-serif;
+    font-family: "Source Sans 3", sans-serif;
     overflow-x: hidden;
 }
 
 
-h1{
+h1 {
     font-size: 60px;
     font-weight: 800;
-    
+
 }
+
 h2 {
     font-size: 40px;
-        font-weight: 700;
+    font-weight: 700;
 }
 
 h3 {
@@ -239,7 +241,7 @@ h3 {
 /* pour mettre mon texte en gras */
 .txt700 {
     font-weight: 700;
-    
+
 }
 
 /* pour mettre mon texte en italic */
@@ -271,7 +273,8 @@ h3 {
 }
 
 .bgFooter {
-    background-color: #354733
+    background-color: #000;
+    color: white;
 }
 
 
@@ -324,41 +327,44 @@ h3 {
 /* bouton "Envoyer" footer */
 .btn4 {
     background-color: #7843E9;
-;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
     color: white;
     padding: 15px 80px;
-    display: inline-block; 
+    display: inline-block;
     font-size: 20px;
     font-weight: 700;
     border-radius: 5px;
-            letter-spacing: 1px;
+    letter-spacing: 1px;
+
 }
 
 /* bouton "Envoyer" footer */
 .btn6 {
     background-color: #7843E9;
-;
+    ;
     color: white;
     padding: 15px 50px;
-    display: inline-block; 
+    display: inline-block;
     font-size: 16px;
     font-weight: 700;
     border-radius: 5px;
-        letter-spacing: 1px;
+    letter-spacing: 1px;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
 }
 
 
 /* bouton "Envoyer" footer */
 .btn5 {
     background-color: #7843E9;
-;
+    ;
     color: white;
     padding: 10px 20px;
-    display: inline-block; 
- 
+    display: inline-block;
+
     font-weight: 700;
     border-radius: 5px;
-            letter-spacing: 1px;
+    letter-spacing: 1px;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
 }
 
 /* style de ma section Avantage client */
@@ -477,55 +483,76 @@ h3 {
     font-weight: 300;
 }
 
-.banner{
+.banner {
 
-height: 100vh;
-background: linear-gradient(to right, rgba(245, 245, 245, 0.8), rgba(245, 245, 245, 0.612)) center center, url(asset/bgHeader.svg);;
+    height: 100vh;
+    background: linear-gradient(to right, rgba(245, 245, 245, 0.8), rgba(245, 245, 245, 0.612)) center center, url(asset/bgHeader.svg);
+    ;
 
 }
 
-.aPropos{
+.aPropos {
     background-color: #fafafa;
 }
 
-.paragraph{
-font-size: 22px;
-font-weight: 400;
+.paragraph {
+    font-size: 22px;
+    font-weight: 400;
 }
 
-.pNav{
-  font-size: 16px;
-font-weight: 700;  
-letter-spacing: 1px;
-}
-
-.pHeader{
-     font-size: 18px;
-font-weight: 700;   
-letter-spacing: 1px;
-}
-
-.pProjet{
-     font-size: 20px;
-font-weight: 500;   
-color:rgb(85, 85, 85);
+.pFooter1{
  
+    font-size: 22px;
+    font-weight: 700;
 }
 
-.penSavoirPlus{
-         font-size: 18px;
-font-weight: 400;  
-color:    rgb(102, 102, 102)
+.pFooter2{
+ 
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.pFooter3{
+ 
+    font-size: 12px;
+    font-weight: 400;
+    padding: auto;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.pNav {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.pHeader {
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.pProjet {
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(85, 85, 85);
 
 }
 
-
-.liNav:hover{
-  color: #7843E9;
+.penSavoirPlus {
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(102, 102, 102)
 }
 
-.traitViolet{
-    background-color:#7843E9 ;
+
+.liNav:hover {
+    color: #7843E9;
+}
+
+.traitViolet {
+    background-color: #7843E9;
     height: 3px;
     width: 25%;
 }
@@ -533,8 +560,8 @@ color:    rgb(102, 102, 102)
 /* style de mes cartes produits / services / retours clients */
 .card2 {
 
-    background-color:rgba(153, 153, 153, 0.2);
-    color:#666; 
+    background-color: rgba(153, 153, 153, 0.2);
+    color: #666;
     font-weight: 600;
     padding: 10px;
     border-radius: 5px;
@@ -547,20 +574,23 @@ color:    rgb(102, 102, 102)
     background-color: white;
 }*/
 
-.lien{
+.lien {
     text-decoration: underline;
-    color:#7843E9;
+    color: #7843E9;
     font-weight: 700;
 }
 
-.spanViolet{
-    background-color: #7843E9;
-    height: 5px;
-    border-radius: 5px; 
-    width:2rem;
-    padding: auto;
-    margin:auto;
-    margin-top: 15px;
+.txtSourligne{
+
+        text-decoration: underline;
 }
 
- 
+.spanViolet {
+    background-color: #7843E9;
+    height: 5px;
+    border-radius: 5px;
+    width: 2rem;
+    padding: auto;
+    margin: auto;
+    margin-top: 15px;
+}

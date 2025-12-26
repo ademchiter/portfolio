@@ -358,6 +358,7 @@ h3 {
  
     font-weight: 700;
     border-radius: 5px;
+            letter-spacing: 1px;
 }
 
 /* style de ma section Avantage client */
@@ -495,6 +496,7 @@ font-weight: 400;
 .pNav{
   font-size: 16px;
 font-weight: 700;  
+letter-spacing: 1px;
 }
 
 .pHeader{

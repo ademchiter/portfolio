@@ -509,6 +509,8 @@ color:    rgb(102, 102, 102)
 
 .traitViolet{
     background-color:#7843E9 ;
+    height: 3px;
+    width: 25%;
 }
 
 /* style de mes cartes produits / services / retours clients */
@@ -537,7 +539,11 @@ color:    rgb(102, 102, 102)
 .spanViolet{
     background-color: #7843E9;
     height: 5px;
-    border-radius: 5px;
+    border-radius: 5px; 
+    width:2rem;
+    padding: auto;
+    margin:auto;
+    margin-top: 15px;
 }
 
  

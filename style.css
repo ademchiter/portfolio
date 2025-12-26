@@ -326,12 +326,27 @@ h3 {
     background-color: #7843E9;
 ;
     color: white;
-    padding: 17px 90px;
+    padding: 15px 80px;
     display: inline-block; 
     font-size: 20px;
     font-weight: 700;
     border-radius: 5px;
+            letter-spacing: 1px;
 }
+
+/* bouton "Envoyer" footer */
+.btn6 {
+    background-color: #7843E9;
+;
+    color: white;
+    padding: 15px 50px;
+    display: inline-block; 
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 5px;
+        letter-spacing: 1px;
+}
+
 
 /* bouton "Envoyer" footer */
 .btn5 {

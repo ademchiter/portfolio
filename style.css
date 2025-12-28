@@ -617,3 +617,9 @@ h3 {
     font-size: 30px;
     color: white;
 }
+
+/* ne pas autoriser que mes textarea soit redimensionné */
+
+textarea {
+    resize: none;
+}

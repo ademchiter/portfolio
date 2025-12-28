@@ -172,24 +172,29 @@
 
 
         <!-- SECTION CONTACT -->
-        <section class="banner padding-50" id="contact">
+        <section class="banner padding-100" id="contact">
 
             <div class="textCenter">
                 <h2 class=""> CONTACT</h2>
                 <div class="spanViolet"></div>
                 <p class="pProjet margin-top-20">N'hésitez pas à me contacter en remplissant le formulaire ci-dessous et
                     je vous répondrai dans les plus brefs délais.</p>
-
-                <form>
-                    <label for="fname">Nom</label><br>
-                    <input type="text" required="" placeholder="Entrez votre nom"><br>
-                    <label for="fname">Adresse mail : </label><br>
-                    <input type="email" placeholder="Entrez votre mail"><br>
-   <label for="fname">Message</label><br>
-                    <textarea required="" cols="30" rows="10" class="contact__form-input" placeholder="Entrez votre message" name="message" id="message"></textarea>
-                    <input type="submit" value="ENVOYER">
-                </form>
             </div>
+            <form>
+                <div class="cardContact w-60">
+
+                    <label for="fname" class="pContact">Nom</label><br>
+                    <input class="inputForm margin-top-10 margin-bottom-40" required="" placeholder="Entrez votre nom"><br>
+                    <label for="fname" class="pContact " >Adresse mail</label><br>
+                    <input class="inputForm margin-top-10 margin-bottom-40" type="email" placeholder="Entrez votre mail"><br>
+                    <label for="fname" class="pContact">Message</label><br>
+                    <textarea required="" cols="30" rows="10" class="contact__form-input margin-top-10 margin-bottom-40"
+                        placeholder="Entrez votre message" name="message" id="message"></textarea><br>
+                    <input type="submit" value="ENVOYER">
+
+                </div>
+            </form>
+
 
 
     </main>

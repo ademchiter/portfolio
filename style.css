@@ -500,20 +500,20 @@ h3 {
     font-weight: 400;
 }
 
-.pFooter1{
- 
+.pFooter1 {
+
     font-size: 22px;
     font-weight: 700;
 }
 
-.pFooter2{
- 
+.pFooter2 {
+
     font-size: 15px;
     font-weight: 400;
 }
 
-.pFooter3{
- 
+.pFooter3 {
+
     font-size: 12px;
     font-weight: 400;
     padding: auto;
@@ -580,10 +580,10 @@ h3 {
     font-weight: 700;
 }
 
-.txtSourligne{
+.txtSourligne {
 
-        text-decoration: underline;
-        color:white;
+    text-decoration: underline;
+    color: white;
 }
 
 .spanViolet {
@@ -596,8 +596,7 @@ h3 {
     margin-top: 15px;
 }
 
-.ph-fill{
+.ph-fill {
     font-size: 30px;
-    color:white;
+    color: white;
 }
- 

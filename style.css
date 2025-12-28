@@ -596,6 +596,18 @@ h3 {
     margin-top: 15px;
 }
 
+.spanGris{
+ 
+    background-color: #444444;
+    height: 1px;
+    border-radius: 5px;
+    width:100%;
+    padding: auto;
+    margin: auto;
+    margin-top: 90px;
+}
+ 
+
 .ph-fill {
     font-size: 30px;
     color: white;

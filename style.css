@@ -57,6 +57,9 @@
     text-align: center;
 }
 
+.textDroite {
+    text-align: right;
+}
 
 /* GAP */
 .gap-10 {
@@ -388,6 +391,8 @@ h3 {
     letter-spacing: 1px;
     box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
     font-family: "Source Sans 3", sans-serif;
+ position: relative;
+  left:0px;
 }
 
 

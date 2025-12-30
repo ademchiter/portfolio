@@ -158,6 +158,7 @@
 .margin-top-100 {
     margin-top: 100px;
 }
+
 .margin-bottom-40 {
     margin-bottom: 40px;
 }
@@ -208,7 +209,7 @@
 
 .padding-100 {
     padding: 100px;
-        padding-bottom: 1000px;
+    padding-bottom: 1000px;
 }
 
 
@@ -371,6 +372,24 @@ h3 {
     letter-spacing: 1px;
     box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
 }
+
+.btn7 {
+    background-color: #7843E9;
+    ;
+    border: none;
+    outline: inherit;
+    cursor: pointer;
+    color: white;
+    padding: 20px 40px;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
+    font-family: "Source Sans 3", sans-serif;
+}
+
 
 
 /* bouton "Envoyer" footer */
@@ -674,9 +693,9 @@ textarea {
     padding: 20px;
 }
 
-.pContact{
-font-size: 14px;
-font-weight:700;
-color: rgb(102, 102, 102);
-letter-spacing: 1px;
+.pContact {
+    font-size: 14px;
+    font-weight: 700;
+    color: rgb(102, 102, 102);
+    letter-spacing: 1px;
 }

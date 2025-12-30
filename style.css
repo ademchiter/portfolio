@@ -363,9 +363,15 @@ h3 {
     font-weight: 700;
     border-radius: 5px;
     letter-spacing: 1px;
+    transition: transform .3s;
 
 }
 
+.btn4:hover{
+ 
+transform: translateY(-3px);
+
+}
 /* bouton "Envoyer" footer */
 .btn6 {
     background-color: #7843E9;
@@ -378,6 +384,14 @@ h3 {
     border-radius: 5px;
     letter-spacing: 1px;
     box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
+        transition: transform .3s;
+}
+
+
+
+.btn6:hover{
+ 
+transform: translateY(-3px);
 }
 
 .btn7 {
@@ -397,7 +411,14 @@ h3 {
     font-family: "Source Sans 3", sans-serif;
  position: relative;
   left:0px;
+      transition: transform .3s;
 }
+
+.btn7:hover{
+ 
+transform: translateY(-3px);
+}
+
 
 
 
@@ -413,6 +434,12 @@ h3 {
     border-radius: 5px;
     letter-spacing: 1px;
     box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
+            transition: transform .3s;
+}
+
+.btn5:hover{
+ 
+transform: translateY(-3px);
 }
 
 /* style de ma section Avantage client */

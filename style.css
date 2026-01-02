@@ -643,6 +643,7 @@ transform: translateY(-3px);
     font-weight: 600;
     padding: 10px;
     border-radius: 5px;
+            transition: transform .3s;
 }
 
 /*header{
@@ -737,4 +738,11 @@ textarea {
     font-weight: 700;
     color: rgb(102, 102, 102);
     letter-spacing: 1px;
+}
+
+ 
+
+.card2:hover{
+ 
+transform: translateY(-4px);
 }

@@ -130,6 +130,7 @@
                         <span class="card2">VISUAL STUDIO</span>
                         <span class="card2">FIGMA</span>
                         <span class="card2">WEBFLOW</span>
+                        <span class="card2">SPLINE</span>
                     </div>
                 </div>
             </div>
@@ -192,15 +193,15 @@
                 <p class="pProjet margin-top-20">N'hésitez pas à me contacter en remplissant le formulaire ci-dessous et
                     je vous répondrai dans les plus brefs délais.</p>
             </div>
-            <form>
+            <form id="contact-form">
                 <div class="cardContact w-60">
 
                     <label for="fname" class="pContact">Nom</label><br>
                     <input class="inputForm margin-top-10 margin-bottom-40" required=""
-                        placeholder="Entrez Votre Nom"><br>
+                        placeholder="Entrez Votre Nom" name="nom"><br>
                     <label for="fname" class="pContact ">Adresse mail</label><br>
                     <input class="inputForm margin-top-10 margin-bottom-40" type="email"
-                        placeholder="Entrez Votre Mail"><br>
+                        placeholder="Entrez Votre Mail" name="email"><br>
                     <label for="fname" class="pContact">Message</label><br>
                     <textarea required="" cols="30" rows="10" class="contact__form-input margin-top-10 margin-bottom-40"
                         placeholder="Entrez Votre Message" name="message" id="message"></textarea><br>
@@ -251,6 +252,32 @@
         AOS.init();
     </script>
 
+<!--  email Js -->
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
+<script>
+(function() {
+  emailjs.init("PIVNyBsS0xx5eOa99");
+})();
+
+document.getElementById("contact-form").addEventListener("submit", function(e) {
+  e.preventDefault();
+
+  emailjs.sendForm(
+    "service_o1hb8vn",
+    "template_ecilv7q",
+    this
+  )
+  .then(() => {
+    alert("Message envoyé !");
+    this.reset();
+  })
+  .catch((error) => {
+    alert("Erreur lors de l'envoi");
+    console.error(error);
+  });
+});
+</script>
 </body>
 
 </html>

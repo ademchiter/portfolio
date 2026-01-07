@@ -746,3 +746,8 @@ textarea {
  
 transform: translateY(-4px);
 }
+
+.emageMe{
+    width: 50px;
+    height: 50px;
+}
